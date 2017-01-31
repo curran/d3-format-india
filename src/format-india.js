@@ -1,4 +1,4 @@
-export default function(x) {
+export default function (x) {
   var negative = x < 0,
       str = String(negative ? -x : x),
       arr = [],
